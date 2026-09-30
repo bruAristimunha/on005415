@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Numbers",
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients undergoing monitoring for seizure activity at Oregon Health & Science University. During monitoring, patients were presented with auditory and visual numerical stimuli that were either symbolic (Arabic numerals and spoken numbers) or non-symbolic (dot arrays and beeps), enabling investigation of numerical cognition and its neural representations in intracranial recordings.",
-  "methods_description": "Stereoelectroencephalography (sEEG) recordings were collected from epilepsy patients in the epilepsy monitoring unit while they were shown auditory and visual numerical stimuli, symbolic (Arabic numerals and spoken numbers) or non-symbolic (dot arrays and beeps).",
+  "description": "Stereoelectroencephalography (sEEG) recordings from epilepsy patients at Oregon Health & Science University, collected while they were in the epilepsy monitoring unit awaiting seizures. Participants were presented with auditory and visual numerical stimuli, either symbolic (Arabic numerals and spoken numbers) or non-symbolic (dots and beeps). The dataset supports investigation of the neural representation of numerical quantity across modalities and formats.",
+  "methods_description": "Intracranial stereoelectroencephalography was recorded from epilepsy patients in the epilepsy monitoring unit while they viewed and heard symbolic (Arabic digits, spoken numbers) and non-symbolic (dot arrays, beeps) numerical stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,7 +12,13 @@
   },
   "keywords": [
     {
-      "term": "Stereoelectroencephalography"
+      "term": "stereoelectroencephalography"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "numerical cognition"
     },
     {
       "term": "Epilepsy",
@@ -20,16 +26,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "numerical cognition"
+      "term": "auditory perception"
     },
     {
-      "term": "intracranial recordings"
-    },
-    {
-      "term": "auditory stimuli"
-    },
-    {
-      "term": "visual stimuli"
+      "term": "visual perception"
     }
   ],
   "related_identifiers": [
@@ -61,7 +61,7 @@
     "ieeg"
   ],
   "sizes": [
-    "14.4 GB (4939 files)"
+    "13.44 GB (4939 files)"
   ],
   "formats": [
     ".2209071630",
