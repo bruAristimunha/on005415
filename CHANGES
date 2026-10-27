@@ -1,4 +1,5 @@
 1.0.1 2026-10-22
+  - Normalize one literal undefined token in numeric response_time to the explicit unavailable marker n/a; no measured response time is invented. Exact original event/behavior table is retained in the sourcedata archive.
   - channels.tsv of 13 recordings = the data-file header channel list (name, order, count; matched by name): 2744 rows renamed to the header name, 0 rows added, 0 rows removed, 0 files reordered. mne_bids read_raw_bids raised 'Channel mismatch'.
   - README: section 'Channel names follow the data headers'.
 

@@ -1,5 +1,5 @@
 trial_i	trial_type	number	response_trial	correct	response_time	fixation_start	stimulus_start	iti_start
-0	arabic	5	False	False	undefined	233186.200000763	234289.200000763	235297.5
+0	arabic	5	False	False	n/a	233186.200000763	234289.200000763	235297.5
 1	dots	2	False	False	n/a	237727.0	238827.0	239832.600000381
 2	written	eight	False	False	n/a	242261.800000191	243363.100000381	244370.0
 3	written	one	False	False	n/a	246799.800000191	247897.300000191	248901.600000381
